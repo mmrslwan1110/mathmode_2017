@@ -1,0 +1,1 @@
+[x,fval,exitflag,output]=fmincon('myfun1',[0 1],[],[],[],[],zeros(2,1),[],'myfun2')
